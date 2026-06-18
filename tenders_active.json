@@ -1,0 +1,4772 @@
+[
+  {
+    "id": 20260639,
+    "description": "639/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "ברנט 18",
+    "price": 7760000.0,
+    "date": "2026-06-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260638,
+    "description": "638/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "יהודה הימית 15",
+    "price": 2650000.0,
+    "date": "2026-06-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260636,
+    "description": "636/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "יהודה הימית 36",
+    "price": 2920000.0,
+    "date": "2026-06-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260635,
+    "description": "635/2026",
+    "city": "חיפה",
+    "shchuna": "אל חרירי 9",
+    "price": 574000.0,
+    "date": "2026-05-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260634,
+    "description": "634/2026",
+    "city": "חיפה",
+    "shchuna": "שד' הציונות 30",
+    "price": 465000.0,
+    "date": "2026-05-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260633,
+    "description": "633/2026",
+    "city": "חיפה",
+    "shchuna": "אל סלט 8",
+    "price": 356000.0,
+    "date": "2026-05-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260632,
+    "description": "632/2026",
+    "city": "רמלה",
+    "shchuna": "מרכוס 7",
+    "price": 440000.0,
+    "date": "2026-05-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260629,
+    "description": "629/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "רח' למרטין 22,",
+    "price": 1951000.0,
+    "date": "2026-05-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260625,
+    "description": "625/2026",
+    "city": "חיפה",
+    "shchuna": "עספור 6",
+    "price": 2376000.0,
+    "date": "2026-04-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260619,
+    "description": "619/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "שבטי ישראל 67",
+    "price": 5647000.0,
+    "date": "2026-03-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260145,
+    "description": "145/2026",
+    "city": "ירושלים",
+    "shchuna": "רובע הכניסה לעיר",
+    "price": null,
+    "date": "2026-06-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260141,
+    "description": "141/2026",
+    "city": "פרדסיה",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-06-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260139,
+    "description": "139/2026",
+    "city": "נוף הגליל",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-06-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260138,
+    "description": "138/2026",
+    "city": "בני ברק",
+    "shchuna": "מתחם הציפור",
+    "price": null,
+    "date": "2026-06-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260137,
+    "description": "137/2026",
+    "city": "אשדוד",
+    "shchuna": "מתחם בית משפט",
+    "price": null,
+    "date": "2026-06-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260135,
+    "description": "135/2026",
+    "city": "בית שמש",
+    "shchuna": "נווה שמיר ה' 2",
+    "price": 8113560.0,
+    "date": "2026-06-04",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260132,
+    "description": "132/2026",
+    "city": "רמת גן",
+    "shchuna": "דרום רמת אפעל",
+    "price": null,
+    "date": "2026-06-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260131,
+    "description": "131/2026",
+    "city": "תל שבע",
+    "shchuna": "שכונה 2",
+    "price": 127399.0,
+    "date": "2026-06-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260130,
+    "description": "130/2026",
+    "city": "בית שמש",
+    "shchuna": null,
+    "price": 678250.0,
+    "date": "2026-05-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260128,
+    "description": "128/2026",
+    "city": "חריש",
+    "shchuna": null,
+    "price": 1162525.0,
+    "date": "2026-06-04",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260126,
+    "description": "126/2026",
+    "city": "שגב שלום",
+    "shchuna": "שגב שלום",
+    "price": null,
+    "date": "2026-05-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260125,
+    "description": "125/2026",
+    "city": "ערערה בנגב",
+    "shchuna": "מזרח הנגב",
+    "price": null,
+    "date": "2026-05-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260123,
+    "description": "123/2026",
+    "city": "מ.א. בני שמעון",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-05-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260122,
+    "description": "122/2026",
+    "city": "נהריה",
+    "shchuna": "משולש בן עמי",
+    "price": null,
+    "date": "2026-06-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260121,
+    "description": "121/2026",
+    "city": "אור יהודה",
+    "shchuna": "אור יהודה",
+    "price": null,
+    "date": "2026-05-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260120,
+    "description": "120/2026",
+    "city": "בית שמש",
+    "shchuna": "נווה שמיר",
+    "price": null,
+    "date": "2026-05-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260119,
+    "description": "119/2026",
+    "city": "בית שמש",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-05-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260114,
+    "description": "114/2026",
+    "city": "מ.א. בני שמעון",
+    "shchuna": "בני שמעון",
+    "price": 165779.0,
+    "date": "2026-05-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260113,
+    "description": "113/2026",
+    "city": "מעלה אדומים",
+    "shchuna": "אזור תעשיה הרחבה דרומית",
+    "price": null,
+    "date": "2026-05-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260110,
+    "description": "110/2026",
+    "city": "ניצן",
+    "shchuna": "מועצה אזורית חוף אשקלון",
+    "price": 2039570.0,
+    "date": "2026-05-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260108,
+    "description": "108/2026",
+    "city": "אשקלון",
+    "shchuna": "אז\"ת",
+    "price": null,
+    "date": "2026-05-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260107,
+    "description": "107/2026",
+    "city": "באר גנים",
+    "shchuna": "מ.א חוף אשקלון",
+    "price": 847129.0,
+    "date": "2026-04-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260105,
+    "description": "105/2026",
+    "city": "אשקלון",
+    "shchuna": "אזור תעשיה דרומי",
+    "price": null,
+    "date": "2026-05-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260104,
+    "description": "104/2026",
+    "city": "יהוד-מונוסון",
+    "shchuna": "שחקים",
+    "price": null,
+    "date": "2026-04-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260102,
+    "description": "102/2026",
+    "city": "קרית ביאליק",
+    "shchuna": "הרקפות",
+    "price": 3597377.0,
+    "date": "2026-04-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260101,
+    "description": "101/2026",
+    "city": "אור יהודה",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-04-23",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260099,
+    "description": "99/2026",
+    "city": "נחלה",
+    "shchuna": "נחלה",
+    "price": null,
+    "date": "2026-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260098,
+    "description": "98/2026",
+    "city": "נתניה",
+    "shchuna": "שירת הים",
+    "price": null,
+    "date": "2026-04-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260096,
+    "description": "96/2026",
+    "city": "מ.א. בני שמעון",
+    "shchuna": "עידן הנגב",
+    "price": null,
+    "date": "2026-04-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260091,
+    "description": "91/2026",
+    "city": "מ.א. בני שמעון",
+    "shchuna": "עידן הנגב",
+    "price": null,
+    "date": "2026-04-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260090,
+    "description": "90/2026",
+    "city": "אבני חפץ",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-04-13",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260089,
+    "description": "89/2026",
+    "city": "כרכום",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-03-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260088,
+    "description": "88/2026",
+    "city": "מעלות תרשיחא",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-03-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260087,
+    "description": "87/2026",
+    "city": "צפת",
+    "shchuna": "מתחם 8",
+    "price": null,
+    "date": "2026-03-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260086,
+    "description": "86/2026",
+    "city": "חריש",
+    "shchuna": "חריש",
+    "price": null,
+    "date": "2026-03-24",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260085,
+    "description": "85/2026",
+    "city": "מגאר",
+    "shchuna": "דרומית",
+    "price": null,
+    "date": "2026-03-25",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260084,
+    "description": "84/2026",
+    "city": "רמלה",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-03-23",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260082,
+    "description": "82/2026",
+    "city": "רעננה",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-06-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260081,
+    "description": "81/2026",
+    "city": "מ.א. חבל יבנה",
+    "shchuna": "חבל יבנה",
+    "price": null,
+    "date": "2026-03-22",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260079,
+    "description": "79/2026",
+    "city": "באר שבע",
+    "shchuna": "רקפות",
+    "price": 64415.0,
+    "date": "2026-03-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260078,
+    "description": "78/2026",
+    "city": "באר שבע",
+    "shchuna": "פסגות רמות",
+    "price": 360304.0,
+    "date": "2026-03-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260077,
+    "description": "77/2026",
+    "city": "עתלית",
+    "shchuna": null,
+    "price": 79021623.0,
+    "date": "2026-03-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260074,
+    "description": "74/2026",
+    "city": "ירוחם",
+    "shchuna": "מכתש",
+    "price": 50752.0,
+    "date": "2026-03-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260073,
+    "description": "73/2026",
+    "city": "יהוד-מונוסון",
+    "shchuna": "מגשימים",
+    "price": 2532734.0,
+    "date": "2026-03-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260071,
+    "description": "71/2026",
+    "city": "שדרות",
+    "shchuna": "צמרות",
+    "price": null,
+    "date": "2026-03-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260070,
+    "description": "70/2026",
+    "city": "דימונה",
+    "shchuna": "יוני נתניהו",
+    "price": null,
+    "date": "2026-03-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260069,
+    "description": "69/2026",
+    "city": "מודיעין-מכבים-רעות",
+    "shchuna": "מודיעין",
+    "price": null,
+    "date": "2026-03-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260068,
+    "description": "68/2026",
+    "city": "מעלה אדומים",
+    "shchuna": "מעלה אדומים",
+    "price": null,
+    "date": "2026-03-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260066,
+    "description": "66/2026",
+    "city": "בית אריה-עופרים",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-03-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260065,
+    "description": "65/2026",
+    "city": "מעלה אדומים",
+    "shchuna": "מעלה אדומים",
+    "price": null,
+    "date": "2026-03-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260064,
+    "description": "64/2026",
+    "city": "אילת",
+    "shchuna": "אילת",
+    "price": null,
+    "date": "2026-03-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260053,
+    "description": "53/2026",
+    "city": "קרית גת",
+    "shchuna": "מתחם ב",
+    "price": null,
+    "date": "2026-02-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260052,
+    "description": "52/2026",
+    "city": "קרית גת",
+    "shchuna": "מערב",
+    "price": null,
+    "date": "2026-02-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260051,
+    "description": "51/2026",
+    "city": "יבנה",
+    "shchuna": "יבנה מזרח",
+    "price": null,
+    "date": "2026-02-25",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260049,
+    "description": "49/2026",
+    "city": "עמנואל",
+    "shchuna": "רובע ג",
+    "price": 135405.0,
+    "date": "2026-02-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260046,
+    "description": "46/2026",
+    "city": "בית שמש",
+    "shchuna": "נווה שמיר",
+    "price": 3529890.0,
+    "date": "2026-02-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260044,
+    "description": "44/2026",
+    "city": "תל אביב יפו",
+    "shchuna": "תל אביב",
+    "price": null,
+    "date": "2026-06-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260043,
+    "description": "43/2026",
+    "city": "עתלית",
+    "shchuna": null,
+    "price": 77256669.0,
+    "date": "2026-02-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260042,
+    "description": "42/2026",
+    "city": "ערד",
+    "shchuna": "רננים",
+    "price": null,
+    "date": "2026-02-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260041,
+    "description": "41/2026",
+    "city": "אשדוד",
+    "shchuna": "פארק לכיש",
+    "price": 5872730.0,
+    "date": "2026-02-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260039,
+    "description": "39/2026",
+    "city": "מאור",
+    "shchuna": "מאור",
+    "price": null,
+    "date": "2026-02-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260035,
+    "description": "35/2026",
+    "city": "כפר סירקין",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-02-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260032,
+    "description": "32/2026",
+    "city": "רמלה",
+    "shchuna": "נאות פרס",
+    "price": null,
+    "date": "2026-02-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260031,
+    "description": "31/2026",
+    "city": "קרית ביאליק",
+    "shchuna": "אפק",
+    "price": null,
+    "date": "2026-02-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260029,
+    "description": "29/2026",
+    "city": "כאבול",
+    "shchuna": "מחצבת מיעאר",
+    "price": 8650000.0,
+    "date": "2026-03-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260027,
+    "description": "27/2026",
+    "city": "ברקן(בית אב\"א",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-02-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260026,
+    "description": "26/2026",
+    "city": "קרית גת",
+    "shchuna": "כרמי גת",
+    "price": null,
+    "date": "2026-04-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260025,
+    "description": "25/2026",
+    "city": "יהוד-מונוסון",
+    "shchuna": "מתחם העצמאות סעדיה חתוכה",
+    "price": null,
+    "date": "2026-02-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260024,
+    "description": "24/2026",
+    "city": "בני עיש",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-06-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260023,
+    "description": "23/2026",
+    "city": "כנף",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-01-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260021,
+    "description": "21/2026",
+    "city": "מ.א. דרום שרון",
+    "shchuna": "מ.א דרם השרון",
+    "price": null,
+    "date": "2026-01-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260020,
+    "description": "20/2026",
+    "city": "עתלית",
+    "shchuna": "עתלית",
+    "price": 1407276.0,
+    "date": "2026-02-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260018,
+    "description": "18/2026",
+    "city": "באר טוביה",
+    "shchuna": "אז\"ת מבצע",
+    "price": null,
+    "date": "2026-03-24",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260017,
+    "description": "17/2026",
+    "city": "נתיבות",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-02-10",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260016,
+    "description": "16/2026",
+    "city": "שבלי-אום ג'נם",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-03-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260015,
+    "description": "15/2026",
+    "city": "אשדוד",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-01-25",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260013,
+    "description": "13/2026",
+    "city": "אשדוד",
+    "shchuna": "אשדוד",
+    "price": null,
+    "date": "2026-01-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260012,
+    "description": "12/2026",
+    "city": "ביתר עילית",
+    "shchuna": "א.ת היער האנגלי",
+    "price": null,
+    "date": "2026-01-21",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20260010,
+    "description": "10/2026",
+    "city": "עמיעד",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-01-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260007,
+    "description": "7/2026",
+    "city": "אריאל",
+    "shchuna": "אמירים",
+    "price": null,
+    "date": "2026-01-07",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260006,
+    "description": "6/2026",
+    "city": "אילת",
+    "shchuna": null,
+    "price": null,
+    "date": "2026-02-10",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260004,
+    "description": "4/2026",
+    "city": "אלעד",
+    "shchuna": "משולש התעסוקה",
+    "price": 4485146.0,
+    "date": "2026-01-06",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20260003,
+    "description": "3/2026",
+    "city": "אלעד",
+    "shchuna": "אלעד",
+    "price": null,
+    "date": "2026-01-06",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250531,
+    "description": "531/2025",
+    "city": "שדרות",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250530,
+    "description": "530/2025",
+    "city": "יקנעם עלית",
+    "shchuna": null,
+    "price": 1724905.0,
+    "date": "2025-12-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250529,
+    "description": "529/2025",
+    "city": "יקנעם עלית",
+    "shchuna": "מבואות מערביים",
+    "price": null,
+    "date": "2025-12-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250527,
+    "description": "527/2025",
+    "city": "בית שאן",
+    "shchuna": "אז\"ת",
+    "price": null,
+    "date": "2025-12-31",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250526,
+    "description": "526/2025",
+    "city": "יקנעם עלית",
+    "shchuna": "יוקנעם עלית",
+    "price": 3474835.0,
+    "date": "2025-12-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250525,
+    "description": "525/2025",
+    "city": "נוף הגליל",
+    "shchuna": "מורדות צפוניים",
+    "price": null,
+    "date": "2025-12-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250521,
+    "description": "521/2025",
+    "city": "חצור הגלילית",
+    "shchuna": "א.ת. חצור הגלילית",
+    "price": 83328.0,
+    "date": "2025-12-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250520,
+    "description": "520/2025",
+    "city": "מודיעין-מכבים-רעות",
+    "shchuna": "מרכז עינב",
+    "price": null,
+    "date": "2025-12-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250518,
+    "description": "518/2025",
+    "city": "חדרה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250517,
+    "description": "517/2025",
+    "city": "אריאל",
+    "shchuna": "אריאל",
+    "price": 168751.0,
+    "date": "2025-12-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250516,
+    "description": "516/2025",
+    "city": "דימונה",
+    "shchuna": "יוני נתניהו",
+    "price": null,
+    "date": "2025-12-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250514,
+    "description": "514/2025",
+    "city": "ירוחם",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250512,
+    "description": "512/2025",
+    "city": "חצור הגלילית",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-23",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250511,
+    "description": "511/2025",
+    "city": "מ.א. משגב",
+    "shchuna": "א.ת. תרדיון",
+    "price": 98720.0,
+    "date": "2025-12-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250510,
+    "description": "510/2025",
+    "city": "יהוד-מונוסון",
+    "shchuna": "גדות",
+    "price": null,
+    "date": "2025-12-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250509,
+    "description": "509/2025",
+    "city": "הר גילה",
+    "shchuna": "הר גילה",
+    "price": null,
+    "date": "2025-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250506,
+    "description": "506/2025",
+    "city": "ראשון לציון",
+    "shchuna": "נרקיסים",
+    "price": null,
+    "date": "2025-12-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250504,
+    "description": "504/2025",
+    "city": "מודיעין-מכבים-רעות",
+    "shchuna": "מודיעין",
+    "price": 131617608.0,
+    "date": "2025-12-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250503,
+    "description": "503/2025",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "אדם",
+    "price": null,
+    "date": "2025-12-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250502,
+    "description": "502/2025",
+    "city": "תל ציון",
+    "shchuna": "תל ציון",
+    "price": null,
+    "date": "2025-12-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250501,
+    "description": "501/2025",
+    "city": "ביתר עילית",
+    "shchuna": "בית עילית",
+    "price": null,
+    "date": "2025-12-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250500,
+    "description": "500/2025",
+    "city": "מ.א. ערבות ירדן",
+    "shchuna": "ערבות הירדן",
+    "price": null,
+    "date": "2025-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250499,
+    "description": "499/2025",
+    "city": "בת חפר",
+    "shchuna": "בת חפר",
+    "price": null,
+    "date": "2025-12-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250497,
+    "description": "497/2025",
+    "city": "רמלה",
+    "shchuna": "טרמינל 6 רג\"מ החדשה",
+    "price": null,
+    "date": "2025-12-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250496,
+    "description": "496/2025",
+    "city": "ערד",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-01",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250492,
+    "description": "492/2025",
+    "city": "אשקלון",
+    "shchuna": "פרדס עמיצור",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250490,
+    "description": "490/2025",
+    "city": "אשדוד",
+    "shchuna": "בית משפט",
+    "price": null,
+    "date": "2025-12-04",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250489,
+    "description": "489/2025",
+    "city": "אשקלון",
+    "shchuna": "גולף",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250488,
+    "description": "488/2025",
+    "city": "אשקלון",
+    "shchuna": "מ 6",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250486,
+    "description": "486/2025",
+    "city": "רמלה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250485,
+    "description": "485/2025",
+    "city": "פתח תקוה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-12-07",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250481,
+    "description": "481/2025",
+    "city": "ערד",
+    "shchuna": "רננים",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250480,
+    "description": "480/2025",
+    "city": "דימונה",
+    "shchuna": "שער העיר",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250476,
+    "description": "476/2025",
+    "city": "צור הדסה",
+    "shchuna": "שלב ג",
+    "price": null,
+    "date": "2025-11-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250475,
+    "description": "475/2025",
+    "city": "צור הדסה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-11-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250474,
+    "description": "474/2025",
+    "city": "ירושלים",
+    "shchuna": "פת קנאי הגליל",
+    "price": null,
+    "date": "2025-11-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250472,
+    "description": "472/2025",
+    "city": "מ.א. רמת נגב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-11-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250470,
+    "description": "470/2025",
+    "city": "הוד השרון",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-11-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250469,
+    "description": "469/2025",
+    "city": "ירושלים",
+    "shchuna": "הר הצופים",
+    "price": null,
+    "date": "2025-11-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250467,
+    "description": "467/2025",
+    "city": "מגדל",
+    "shchuna": "מגדל",
+    "price": null,
+    "date": "2025-12-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250466,
+    "description": "466/2025",
+    "city": "באר שבע",
+    "shchuna": "בית אשל",
+    "price": null,
+    "date": "2025-11-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250462,
+    "description": "462/2025",
+    "city": "כפר תבור",
+    "shchuna": "שכונת בנימין",
+    "price": null,
+    "date": "2025-11-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250461,
+    "description": "461/2025",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "גבע בנימין",
+    "price": null,
+    "date": "2025-11-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250460,
+    "description": "460/2025",
+    "city": "מעלה אדומים",
+    "shchuna": "מבשרת אדומים",
+    "price": null,
+    "date": "2025-12-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250459,
+    "description": "459/2025",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "אדם",
+    "price": null,
+    "date": "2025-11-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250457,
+    "description": "457/2025",
+    "city": "מ.א. תמר",
+    "shchuna": "מ.א תמר",
+    "price": null,
+    "date": "2025-11-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250450,
+    "description": "450/2025",
+    "city": "תל אביב יפו",
+    "shchuna": "קריה",
+    "price": null,
+    "date": "2025-11-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250445,
+    "description": "445/2025",
+    "city": "נתיבות",
+    "shchuna": "נתיבות",
+    "price": null,
+    "date": "2025-10-28",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250444,
+    "description": "444/2025",
+    "city": "גבעת זאב",
+    "shchuna": "גבעון הישנה",
+    "price": null,
+    "date": "2025-11-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250438,
+    "description": "438/2025",
+    "city": "ירוחם",
+    "shchuna": "האגם",
+    "price": null,
+    "date": "2025-10-23",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250436,
+    "description": "436/2025",
+    "city": "קרית מלאכי",
+    "shchuna": "קרית מלאכי",
+    "price": null,
+    "date": "2026-01-07",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250435,
+    "description": "435/2025",
+    "city": "מגאר",
+    "shchuna": "א.ת. מגאר",
+    "price": null,
+    "date": "2025-10-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250424,
+    "description": "424/2025",
+    "city": "תקומה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250422,
+    "description": "422/2025",
+    "city": "משהד",
+    "shchuna": "רובע צפוני",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250421,
+    "description": "421/2025",
+    "city": "נתניה",
+    "shchuna": "נרדאו",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250420,
+    "description": "420/2025",
+    "city": "לוד",
+    "shchuna": "הזית",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250418,
+    "description": "418/2025",
+    "city": "חיפה",
+    "shchuna": "נווה שאנן",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250416,
+    "description": "416/2025",
+    "city": "פקיעין(בקיעה)",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250415,
+    "description": "415/2025",
+    "city": "מגאר",
+    "shchuna": "הרחבה מזרחית",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250414,
+    "description": "414/2025",
+    "city": "כפר כמא",
+    "shchuna": "כפר כמא",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250413,
+    "description": "413/2025",
+    "city": "כסרא-סמיע",
+    "shchuna": "כסרא",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250412,
+    "description": "412/2025",
+    "city": "יאנוח-ג'ת",
+    "shchuna": "ג'ת",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250411,
+    "description": "411/2025",
+    "city": "צפת",
+    "shchuna": "עכברה",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250409,
+    "description": "409/2025",
+    "city": "ג'וליס",
+    "shchuna": "אלבטיח'ה",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250408,
+    "description": "408/2025",
+    "city": "בית ג'אן",
+    "shchuna": "גבעה מערבית",
+    "price": null,
+    "date": "2025-09-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250406,
+    "description": "406/2025",
+    "city": "ירושלים",
+    "shchuna": "הכניסה לעיר",
+    "price": null,
+    "date": "2025-09-15",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250402,
+    "description": "402/2025",
+    "city": "ערד",
+    "shchuna": "ערד",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250397,
+    "description": "397/2025",
+    "city": "ירוחם",
+    "shchuna": "ירוחם",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250396,
+    "description": "396/2025",
+    "city": "מ.א. רמת נגב",
+    "shchuna": "נווה תמרים",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250395,
+    "description": "395/2025",
+    "city": "דאלית אל כרמל (עיר הכרמל)",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250393,
+    "description": "393/2025",
+    "city": "ערד",
+    "shchuna": "מעוף שקד",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250392,
+    "description": "392/2025",
+    "city": "ערד",
+    "shchuna": "יהושפט",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250391,
+    "description": "391/2025",
+    "city": "מצפה רמון",
+    "shchuna": "מעוף",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250386,
+    "description": "386/2025",
+    "city": "פתח תקוה",
+    "shchuna": "מצלתיים",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250381,
+    "description": "381/2025",
+    "city": "נתניה",
+    "shchuna": "חבצלת",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250380,
+    "description": "380/2025",
+    "city": "נתניה",
+    "shchuna": "אילנות",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250379,
+    "description": "379/2025",
+    "city": "נוה דניאל",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-15",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250378,
+    "description": "378/2025",
+    "city": "אבני חפץ",
+    "shchuna": "מרכז אזרחי",
+    "price": null,
+    "date": "2025-09-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250377,
+    "description": "377/2025",
+    "city": "אלפי מנשה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-10-22",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250376,
+    "description": "376/2025",
+    "city": "גבעת זאב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250371,
+    "description": "371/2025",
+    "city": "ירושלים",
+    "shchuna": "מתחם D",
+    "price": null,
+    "date": "2025-09-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250369,
+    "description": "369/2025",
+    "city": "ירושלים",
+    "shchuna": "רחוב רבקה",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250368,
+    "description": "368/2025",
+    "city": "מצפה רמון",
+    "shchuna": "מגשימים מעוף",
+    "price": null,
+    "date": "2025-11-06",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250362,
+    "description": "362/2025",
+    "city": "להבים",
+    "shchuna": "שרונים",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250359,
+    "description": "359/2025",
+    "city": "מצפה רמון",
+    "shchuna": "מצפה רמון",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250353,
+    "description": "353/2025",
+    "city": "אופקים",
+    "shchuna": "אפיקי נחל",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250352,
+    "description": "352/2025",
+    "city": "אופקים",
+    "shchuna": "שקד שלב ב'",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250351,
+    "description": "351/2025",
+    "city": "אופקים",
+    "shchuna": "שקד שלב ב'",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250350,
+    "description": "350/2025",
+    "city": "אילת",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250349,
+    "description": "349/2025",
+    "city": "ספיר",
+    "shchuna": "ספיר",
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250348,
+    "description": "348/2025",
+    "city": "מ.מ.ת. נאות חובב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250345,
+    "description": "345/2025",
+    "city": "הרצליה",
+    "shchuna": "נווה ישראל",
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250344,
+    "description": "344/2025",
+    "city": "הרצליה",
+    "shchuna": "גליל ים",
+    "price": null,
+    "date": "2025-10-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250341,
+    "description": "341/2025",
+    "city": "לא ידוע",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250340,
+    "description": "340/2025",
+    "city": "ערערה בנגב",
+    "shchuna": "שכונה 10",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250338,
+    "description": "338/2025",
+    "city": "ערערה בנגב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250337,
+    "description": "337/2025",
+    "city": "שדרות",
+    "shchuna": "שדרות",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250336,
+    "description": "336/2025",
+    "city": "נתיבות",
+    "shchuna": "נתיבות",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250331,
+    "description": "331/2025",
+    "city": "נתיבות",
+    "shchuna": "אז\"ת דרו מזרחי",
+    "price": null,
+    "date": "2025-08-13",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250330,
+    "description": "330/2025",
+    "city": "נתיבות",
+    "shchuna": "אזת",
+    "price": null,
+    "date": "2025-08-13",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250329,
+    "description": "329/2025",
+    "city": "נתיבות",
+    "shchuna": "אז\"ת דרום מזרחי",
+    "price": null,
+    "date": "2025-08-13",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250325,
+    "description": "325/2025",
+    "city": "אריאל",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-08-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250323,
+    "description": "323/2025",
+    "city": "אילות",
+    "shchuna": "חבל אילות",
+    "price": null,
+    "date": "2025-08-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250321,
+    "description": "321/2025",
+    "city": "מעלה אדומים",
+    "shchuna": "ציפור מדבר",
+    "price": null,
+    "date": "2025-08-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250317,
+    "description": "317/2025",
+    "city": "גסר א זרקא",
+    "shchuna": "גסר אזרקא",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250315,
+    "description": "315/2025",
+    "city": "ראשון לציון",
+    "shchuna": "נרקיסים",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250311,
+    "description": "311/2025",
+    "city": "שדרות",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250304,
+    "description": "304/2025",
+    "city": "דימונה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-07-22",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250302,
+    "description": "302/2025",
+    "city": "חיננית",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-07-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250300,
+    "description": "300/2025",
+    "city": "קציר",
+    "shchuna": "מזרחית",
+    "price": null,
+    "date": "2025-07-07",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250299,
+    "description": "299/2025",
+    "city": "כרמון",
+    "shchuna": "אזור תעשייה כרמון",
+    "price": null,
+    "date": "2025-09-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250295,
+    "description": "295/2025",
+    "city": "אשקלון",
+    "shchuna": "מגדל",
+    "price": null,
+    "date": "2025-07-01",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250294,
+    "description": "294/2025",
+    "city": "מ.א. יואב",
+    "shchuna": "שדה יואב",
+    "price": null,
+    "date": "2026-04-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250290,
+    "description": "290/2025",
+    "city": "בנימינה-ג.עדה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250286,
+    "description": "286/2025",
+    "city": "קרית אתא",
+    "shchuna": "קרית אתא",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250282,
+    "description": "282/2025",
+    "city": "קרית אתא",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250278,
+    "description": "278/2025",
+    "city": "טבריה",
+    "shchuna": "מורדות טבריה ב'",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250273,
+    "description": "273/2025",
+    "city": "קרית גת",
+    "shchuna": "רובע הפרחים",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250260,
+    "description": "260/2025",
+    "city": "שדרות",
+    "shchuna": "נאות שקמה",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250259,
+    "description": "259/2025",
+    "city": "מצפה רמון",
+    "shchuna": "מעוף",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250249,
+    "description": "249/2025",
+    "city": "רמת השרון",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250247,
+    "description": "247/2025",
+    "city": "תל אביב יפו",
+    "shchuna": "רמת החייל מתחם הארד",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250246,
+    "description": "246/2025",
+    "city": "תל אביב יפו",
+    "shchuna": "רמת החייל מתחם הארד",
+    "price": null,
+    "date": "2025-08-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250242,
+    "description": "242/2025",
+    "city": "רמת השרון",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250236,
+    "description": "236/2025",
+    "city": "מעלה אדומים",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-07-01",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250235,
+    "description": "235/2025",
+    "city": "נצנה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-06-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250233,
+    "description": "233/2025",
+    "city": "עלי זהב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-06-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250232,
+    "description": "232/2025",
+    "city": "ירוחם",
+    "shchuna": "נחלים",
+    "price": null,
+    "date": "2025-06-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250231,
+    "description": "231/2025",
+    "city": "ירוחם",
+    "shchuna": "חלמונית",
+    "price": null,
+    "date": "2025-06-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250227,
+    "description": "227/2025",
+    "city": "מעלה אדומים",
+    "shchuna": "מישור אדומים",
+    "price": null,
+    "date": "2025-06-04",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250226,
+    "description": "226/2025",
+    "city": "מ.א. רמת נגב",
+    "shchuna": "מ.א. רמת הנגב",
+    "price": null,
+    "date": "2025-05-28",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250223,
+    "description": "223/2025",
+    "city": "עומר",
+    "shchuna": "פארק תעשיה עומר",
+    "price": null,
+    "date": "2025-05-22",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250222,
+    "description": "222/2025",
+    "city": "דימונה",
+    "shchuna": "יוני נתניהו",
+    "price": null,
+    "date": "2025-05-21",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250219,
+    "description": "219/2025",
+    "city": "כפר מונש",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-05-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250218,
+    "description": "218/2025",
+    "city": "כפר מונש",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-05-15",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250217,
+    "description": "217/2025",
+    "city": "כפר מונש",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-05-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250213,
+    "description": "213/2025",
+    "city": "אשקלון",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-09-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250207,
+    "description": "207/2025",
+    "city": "הרצליה",
+    "shchuna": "קרית מסלול",
+    "price": null,
+    "date": "2025-05-06",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250204,
+    "description": "204/2025",
+    "city": "אזור",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-05-07",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250201,
+    "description": "201/2025",
+    "city": "מ.א. באר טוביה",
+    "shchuna": "כפר ורבורג",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250200,
+    "description": "200/2025",
+    "city": "מ.א. באר טוביה",
+    "shchuna": "גבעתי",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250198,
+    "description": "198/2025",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "אדם גבע בנימין",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250197,
+    "description": "197/2025",
+    "city": "אדם - גבע בנימין",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250196,
+    "description": "196/2025",
+    "city": "קרית ארבע",
+    "shchuna": "הר מנוח",
+    "price": null,
+    "date": "2025-04-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250195,
+    "description": "195/2025",
+    "city": "מ.א. באר טוביה",
+    "shchuna": "עזריקם",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250187,
+    "description": "187/2025",
+    "city": "זהר",
+    "shchuna": "זוהר",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250185,
+    "description": "185/2025",
+    "city": "רמת רזיאל",
+    "shchuna": "רמת רזיאל",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250183,
+    "description": "183/2025",
+    "city": "גנות",
+    "shchuna": "גנות",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250182,
+    "description": "182/2025",
+    "city": "גנות",
+    "shchuna": "גנות",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250178,
+    "description": "178/2025",
+    "city": "ורדון",
+    "shchuna": "ורדון",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250175,
+    "description": "175/2025",
+    "city": "כפר הרא\"ה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250174,
+    "description": "174/2025",
+    "city": "כפר הרא\"ה",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250172,
+    "description": "172/2025",
+    "city": "צלפון",
+    "shchuna": "צלפון",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250171,
+    "description": "171/2025",
+    "city": "ערוגות",
+    "shchuna": "ערוגות",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250166,
+    "description": "166/2025",
+    "city": "סגולה",
+    "shchuna": "סגולה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250163,
+    "description": "163/2025",
+    "city": "קרית מלאכי",
+    "shchuna": "אורות",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250162,
+    "description": "162/2025",
+    "city": "עצם",
+    "shchuna": "עצם",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250158,
+    "description": "158/2025",
+    "city": "בית שמש",
+    "shchuna": "גבעת הבריכה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250157,
+    "description": "157/2025",
+    "city": "אשקלון",
+    "shchuna": "הרצוג",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250156,
+    "description": "156/2025",
+    "city": "משמר אילון",
+    "shchuna": "משמר איילון",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250155,
+    "description": "155/2025",
+    "city": "משמר אילון",
+    "shchuna": "משמר איילון",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250154,
+    "description": "154/2025",
+    "city": "בית עובד",
+    "shchuna": "בית עובד",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250153,
+    "description": "153/2025",
+    "city": "בית עובד",
+    "shchuna": "בית עובד",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250152,
+    "description": "152/2025",
+    "city": "ינוב",
+    "shchuna": "ינוב",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250151,
+    "description": "151/2025",
+    "city": "ינוב",
+    "shchuna": "ינוב",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250149,
+    "description": "149/2025",
+    "city": "צופית",
+    "shchuna": "צופית",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250148,
+    "description": "148/2025",
+    "city": "גנות",
+    "shchuna": "גנות",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250147,
+    "description": "147/2025",
+    "city": "כפר הרא\"ה",
+    "shchuna": "כפר הרא\"ה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250146,
+    "description": "146/2025",
+    "city": "משמר אילון",
+    "shchuna": "משמר אילון",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250145,
+    "description": "145/2025",
+    "city": "בית עובד",
+    "shchuna": "בית עובד",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250144,
+    "description": "144/2025",
+    "city": "ינוב",
+    "shchuna": "ינוב",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250143,
+    "description": "143/2025",
+    "city": "בחן",
+    "shchuna": "בחן",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250140,
+    "description": "140/2025",
+    "city": "יבנה",
+    "shchuna": "רמות ויצמן",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250139,
+    "description": "139/2025",
+    "city": "ראשון לציון",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250138,
+    "description": "138/2025",
+    "city": "מבוא מודיעים",
+    "shchuna": "מבוא מודיעין",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250137,
+    "description": "137/2025",
+    "city": "צור נתן",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250136,
+    "description": "136/2025",
+    "city": "כפר סבא",
+    "shchuna": "קפלן",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250135,
+    "description": "135/2025",
+    "city": "גבעת נילי",
+    "shchuna": "מועצה אזורית אלונה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250134,
+    "description": "134/2025",
+    "city": "גבעת נילי",
+    "shchuna": "מ.א. אלונה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250133,
+    "description": "133/2025",
+    "city": "גבעת נילי",
+    "shchuna": "גבעת נילי",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250132,
+    "description": "132/2025",
+    "city": "דור",
+    "shchuna": "מ.א חוף כרמל",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250131,
+    "description": "131/2025",
+    "city": "דור",
+    "shchuna": "מ.א. חוף הכרמל",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250129,
+    "description": "129/2025",
+    "city": "פרדס חנה כרכור",
+    "shchuna": "כרכור",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250127,
+    "description": "127/2025",
+    "city": "קרית אתא",
+    "shchuna": "קרית אתא",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250118,
+    "description": "118/2025",
+    "city": "אילת",
+    "shchuna": "שחמון 6",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250117,
+    "description": "117/2025",
+    "city": "אופקים",
+    "shchuna": "בית וגן,מישור הגפן, רמת שקד",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250112,
+    "description": "112/2025",
+    "city": "קצרין",
+    "shchuna": "רובע 11",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250110,
+    "description": "110/2025",
+    "city": "פורייה-נווה עובד",
+    "shchuna": "נווה עובד",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250108,
+    "description": "108/2025",
+    "city": "טבריה",
+    "shchuna": "המושבה",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250107,
+    "description": "107/2025",
+    "city": "טבריה",
+    "shchuna": "מול ארבל",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250105,
+    "description": "105/2025",
+    "city": "בית שאן",
+    "shchuna": "דרום מזרחית",
+    "price": null,
+    "date": "2025-04-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250102,
+    "description": "102/2025",
+    "city": "קרית ארבע",
+    "shchuna": "קרית ארבע",
+    "price": null,
+    "date": "2025-04-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250100,
+    "description": "100/2025",
+    "city": "בית שמש",
+    "shchuna": "שכונות ה'1 ו-ה'2",
+    "price": null,
+    "date": "2025-05-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250099,
+    "description": "99/2025",
+    "city": "גסר א זרקא",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-04-21",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250092,
+    "description": "92/2025",
+    "city": "שדרות",
+    "shchuna": "מתחם 9",
+    "price": null,
+    "date": "2025-04-07",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250088,
+    "description": "88/2025",
+    "city": "אופקים",
+    "shchuna": "חורשת האקליפטוס צביון חרדי",
+    "price": null,
+    "date": "2025-03-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250085,
+    "description": "85/2025",
+    "city": "דימונה",
+    "shchuna": "דימונה",
+    "price": null,
+    "date": "2025-03-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250082,
+    "description": "82/2025",
+    "city": "אזור",
+    "shchuna": "פארק אזור",
+    "price": null,
+    "date": "2025-03-19",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250079,
+    "description": "79/2025",
+    "city": "באר יעקב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-03-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250075,
+    "description": "75/2025",
+    "city": "יהוד-מונוסון",
+    "shchuna": "גדות",
+    "price": null,
+    "date": "2025-03-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250072,
+    "description": "72/2025",
+    "city": "מ.א. תמר",
+    "shchuna": "ים המלח",
+    "price": null,
+    "date": "2025-03-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250071,
+    "description": "71/2025",
+    "city": "יבנה",
+    "shchuna": "רמות ויצמן",
+    "price": null,
+    "date": "2025-03-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250068,
+    "description": "68/2025",
+    "city": "רומת הייב",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-03-24",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250058,
+    "description": "58/2025",
+    "city": "באר שבע",
+    "shchuna": "שד' רגר",
+    "price": null,
+    "date": "2025-02-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250056,
+    "description": "56/2025",
+    "city": "באר שבע",
+    "shchuna": "רמות הרכס",
+    "price": null,
+    "date": "2025-02-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250048,
+    "description": "48/2025",
+    "city": "תל אביב יפו",
+    "shchuna": "שדה דב",
+    "price": null,
+    "date": "2025-02-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250046,
+    "description": "46/2025",
+    "city": "תל אביב יפו",
+    "shchuna": null,
+    "price": null,
+    "date": "2025-02-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250040,
+    "description": "40/2025",
+    "city": "צוקים",
+    "shchuna": "צוקים",
+    "price": null,
+    "date": "2025-02-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250039,
+    "description": "39/2025",
+    "city": "אפרת",
+    "shchuna": "גבעת הזית",
+    "price": null,
+    "date": "2025-02-12",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250038,
+    "description": "38/2025",
+    "city": "אפרת",
+    "shchuna": "גבעת הזית",
+    "price": null,
+    "date": "2025-02-12",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250018,
+    "description": "18/2025",
+    "city": "קרית אונו",
+    "shchuna": "קרית אונו",
+    "price": null,
+    "date": "2025-01-21",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250016,
+    "description": "16/2025",
+    "city": "תל אביב יפו",
+    "shchuna": "שדה דב",
+    "price": null,
+    "date": "2025-02-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20250009,
+    "description": "9/2025",
+    "city": "מ.א. הערבה התיכונה",
+    "shchuna": "פארק ספיר",
+    "price": null,
+    "date": "2025-01-06",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250008,
+    "description": "8/2025",
+    "city": "מ.א. הערבה התיכונה",
+    "shchuna": "פארק ספיר",
+    "price": null,
+    "date": "2025-01-06",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20250007,
+    "description": "7/2025",
+    "city": "חצבה",
+    "shchuna": "ערבה תיכונה",
+    "price": null,
+    "date": "2025-01-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240473,
+    "description": "473/2024",
+    "city": "שלומי",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-12-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240469,
+    "description": "469/2024",
+    "city": "רחובות",
+    "shchuna": "מזרח",
+    "price": null,
+    "date": "2024-12-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240468,
+    "description": "468/2024",
+    "city": "שלומי",
+    "shchuna": "חמודות",
+    "price": null,
+    "date": "2024-12-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240467,
+    "description": "467/2024",
+    "city": "שלומי",
+    "shchuna": "חמודות",
+    "price": null,
+    "date": "2024-12-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240466,
+    "description": "466/2024",
+    "city": "ירושלים",
+    "shchuna": "פייר קניג",
+    "price": null,
+    "date": "2024-12-25",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240454,
+    "description": "454/2024",
+    "city": "קרית אתא",
+    "shchuna": "קרית אתא",
+    "price": null,
+    "date": "2024-12-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240452,
+    "description": "452/2024",
+    "city": "בני עיש",
+    "shchuna": "שדות",
+    "price": null,
+    "date": "2024-12-23",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240451,
+    "description": "451/2024",
+    "city": "בני עיש",
+    "shchuna": "שדות",
+    "price": null,
+    "date": "2024-12-23",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240447,
+    "description": "447/2024",
+    "city": "רחובות",
+    "shchuna": "מתחם מרכזי",
+    "price": null,
+    "date": "2024-12-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240446,
+    "description": "446/2024",
+    "city": "אבן שמואל",
+    "shchuna": "הרחבה",
+    "price": null,
+    "date": "2024-12-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240445,
+    "description": "445/2024",
+    "city": "רחובות",
+    "shchuna": "מזרח",
+    "price": null,
+    "date": "2024-12-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240444,
+    "description": "444/2024",
+    "city": "בני עיש",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240441,
+    "description": "441/2024",
+    "city": "אשקלון",
+    "shchuna": "אבן עזרא",
+    "price": null,
+    "date": "2024-12-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240432,
+    "description": "432/2024",
+    "city": "לוד",
+    "shchuna": "ניר צבי",
+    "price": null,
+    "date": "2024-12-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240431,
+    "description": "431/2024",
+    "city": "יהוד-מונוסון",
+    "shchuna": "גדות",
+    "price": null,
+    "date": "2024-12-04",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240430,
+    "description": "430/2024",
+    "city": "רהט",
+    "shchuna": "רהט",
+    "price": null,
+    "date": "2024-12-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240427,
+    "description": "427/2024",
+    "city": "כפר ברא",
+    "shchuna": "כפר ברא",
+    "price": null,
+    "date": "2024-11-28",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240422,
+    "description": "422/2024",
+    "city": "מעלה מכמש",
+    "shchuna": "מעלה מכמש",
+    "price": null,
+    "date": "2024-11-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240410,
+    "description": "410/2024",
+    "city": "עכו",
+    "shchuna": "שערי עכו מזרח",
+    "price": null,
+    "date": "2024-11-19",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240406,
+    "description": "406/2024",
+    "city": "אופקים",
+    "shchuna": "אפיקי הנחל",
+    "price": null,
+    "date": "2024-11-13",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240405,
+    "description": "405/2024",
+    "city": "אופקים",
+    "shchuna": "אפיקי הנחל",
+    "price": null,
+    "date": "2024-11-13",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240403,
+    "description": "403/2024",
+    "city": "נתיבות",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-11-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240396,
+    "description": "396/2024",
+    "city": "דימונה",
+    "shchuna": "אריק שרון",
+    "price": null,
+    "date": "2024-11-18",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240379,
+    "description": "379/2024",
+    "city": "חורה",
+    "shchuna": "שכונה17",
+    "price": null,
+    "date": "2024-10-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240375,
+    "description": "375/2024",
+    "city": "כפר כנא",
+    "shchuna": "כפר כנא",
+    "price": null,
+    "date": "2024-10-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240367,
+    "description": "367/2024",
+    "city": "ירושלים",
+    "shchuna": "בית צפאפא",
+    "price": null,
+    "date": "2024-10-15",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240363,
+    "description": "363/2024",
+    "city": "ירושלים",
+    "shchuna": "רמת שלמה",
+    "price": null,
+    "date": "2024-10-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240351,
+    "description": "351/2024",
+    "city": "אום אל פחם",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-10-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240350,
+    "description": "350/2024",
+    "city": "תל אביב יפו",
+    "shchuna": "הבית הירוק",
+    "price": null,
+    "date": "2024-10-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240349,
+    "description": "349/2024",
+    "city": "קרית אתא",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-10-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240344,
+    "description": "344/2024",
+    "city": "תל אביב יפו",
+    "shchuna": "שכונת אשכול",
+    "price": null,
+    "date": "2024-10-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240340,
+    "description": "340/2024",
+    "city": "מ.מ.ת. נאות חובב",
+    "shchuna": "נאות חובב",
+    "price": null,
+    "date": "2024-10-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240339,
+    "description": "339/2024",
+    "city": "שלומי",
+    "shchuna": "שלומי",
+    "price": null,
+    "date": "2024-10-07",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240327,
+    "description": "327/2024",
+    "city": "האון",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-09-12",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240311,
+    "description": "311/2024",
+    "city": "אשדוד",
+    "shchuna": "האצטדיון רובע א",
+    "price": null,
+    "date": "2024-09-03",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240309,
+    "description": "309/2024",
+    "city": "נס ציונה",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-09-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240307,
+    "description": "307/2024",
+    "city": "נתניה",
+    "shchuna": "כוכב הים",
+    "price": null,
+    "date": "2024-09-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240303,
+    "description": "303/2024",
+    "city": "נתניה",
+    "shchuna": "חוף הזהב",
+    "price": null,
+    "date": "2024-09-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240301,
+    "description": "301/2024",
+    "city": "מעלה אפרים",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-08-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240300,
+    "description": "300/2024",
+    "city": "עמנואל",
+    "shchuna": "עמנואל",
+    "price": null,
+    "date": "2024-11-03",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240296,
+    "description": "296/2024",
+    "city": "האון",
+    "shchuna": "האון",
+    "price": null,
+    "date": "2024-08-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240294,
+    "description": "294/2024",
+    "city": "בית שמש",
+    "shchuna": "מע\"ר",
+    "price": null,
+    "date": "2024-08-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240293,
+    "description": "293/2024",
+    "city": "דיר חנא",
+    "shchuna": "שכונה מערבית",
+    "price": null,
+    "date": "2024-09-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240283,
+    "description": "283/2024",
+    "city": "אשדוד",
+    "shchuna": "רובע ו",
+    "price": null,
+    "date": "2024-08-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240272,
+    "description": "272/2024",
+    "city": "תל אביב יפו",
+    "shchuna": "שדה דב",
+    "price": null,
+    "date": "2024-09-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240261,
+    "description": "261/2024",
+    "city": "אלון שבות",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-08-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240252,
+    "description": "252/2024",
+    "city": "דולב",
+    "shchuna": "דולב",
+    "price": null,
+    "date": "2024-08-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240249,
+    "description": "249/2024",
+    "city": "מפעלי מישור רותם",
+    "shchuna": "מישור רותם",
+    "price": null,
+    "date": "2024-08-06",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240245,
+    "description": "245/2024",
+    "city": "ירושלים",
+    "shchuna": "פסגת זאב",
+    "price": null,
+    "date": "2024-07-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240244,
+    "description": "244/2024",
+    "city": "ירושלים",
+    "shchuna": "פסגת זאב",
+    "price": null,
+    "date": "2024-07-29",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240242,
+    "description": "242/2024",
+    "city": "ראשון לציון",
+    "shchuna": "נחלת יהודה",
+    "price": null,
+    "date": "2024-07-24",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240225,
+    "description": "225/2024",
+    "city": "קדרים",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-08-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240219,
+    "description": "219/2024",
+    "city": "להבים",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-07-02",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240216,
+    "description": "216/2024",
+    "city": "ראש העין",
+    "shchuna": "אתר C",
+    "price": null,
+    "date": "2024-07-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240205,
+    "description": "205/2024",
+    "city": "ערד",
+    "shchuna": "רובע 6",
+    "price": null,
+    "date": "2024-07-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240204,
+    "description": "204/2024",
+    "city": "ערד",
+    "shchuna": "ערד",
+    "price": null,
+    "date": "2024-07-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240203,
+    "description": "203/2024",
+    "city": "ערד",
+    "shchuna": "רובע 6",
+    "price": null,
+    "date": "2024-07-30",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240202,
+    "description": "202/2024",
+    "city": "ערד",
+    "shchuna": "רובע 6",
+    "price": null,
+    "date": "2024-07-30",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240172,
+    "description": "172/2024",
+    "city": "גן יבנה",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-05-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240164,
+    "description": "164/2024",
+    "city": "צפת",
+    "shchuna": "אז\"ת",
+    "price": null,
+    "date": "2024-04-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240155,
+    "description": "155/2024",
+    "city": "ירושלים",
+    "shchuna": "אמת המים התחתונה",
+    "price": null,
+    "date": "2024-04-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240154,
+    "description": "154/2024",
+    "city": "ערד",
+    "shchuna": "טיילת מואב",
+    "price": null,
+    "date": "2024-04-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240153,
+    "description": "153/2024",
+    "city": "ערד",
+    "shchuna": "גבעות מזרחיות",
+    "price": null,
+    "date": "2024-04-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240141,
+    "description": "141/2024",
+    "city": "תל אביב יפו",
+    "shchuna": "דרום הקריה",
+    "price": null,
+    "date": "2024-04-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240133,
+    "description": "133/2024",
+    "city": "רמלה",
+    "shchuna": "גן חקל",
+    "price": null,
+    "date": "2024-04-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240120,
+    "description": "120/2024",
+    "city": "רחובות",
+    "shchuna": "קרית משה",
+    "price": null,
+    "date": "2024-03-27",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240095,
+    "description": "95/2024",
+    "city": "אלעד",
+    "shchuna": "מעטפת העיר",
+    "price": null,
+    "date": "2024-03-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240090,
+    "description": "90/2024",
+    "city": "בית שמש",
+    "shchuna": "השחר",
+    "price": null,
+    "date": "2024-02-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240085,
+    "description": "85/2024",
+    "city": "הרצליה",
+    "shchuna": "קרית שחקים",
+    "price": null,
+    "date": "2024-02-21",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240084,
+    "description": "84/2024",
+    "city": "קרית גת",
+    "shchuna": "קרית גת",
+    "price": null,
+    "date": "2024-02-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240083,
+    "description": "83/2024",
+    "city": "קרית גת",
+    "shchuna": "פארק תעשיה קרית גת",
+    "price": null,
+    "date": "2024-02-29",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240066,
+    "description": "66/2024",
+    "city": "הר גילה",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240065,
+    "description": "65/2024",
+    "city": "קרני שומרון",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240063,
+    "description": "63/2024",
+    "city": "אדורה",
+    "shchuna": "אדורה",
+    "price": null,
+    "date": "2024-02-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240061,
+    "description": "61/2024",
+    "city": "קרית ארבע",
+    "shchuna": "קרית ארבע",
+    "price": null,
+    "date": "2024-02-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240059,
+    "description": "59/2024",
+    "city": "כוכב השחר",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240058,
+    "description": "58/2024",
+    "city": "דולב",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240057,
+    "description": "57/2024",
+    "city": "מתתיהו",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240056,
+    "description": "56/2024",
+    "city": "קרני שומרון",
+    "shchuna": "קרני שומרון",
+    "price": null,
+    "date": "2024-02-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240055,
+    "description": "55/2024",
+    "city": "כוכב יעקב",
+    "shchuna": "כוכב יעקב",
+    "price": null,
+    "date": "2024-02-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240054,
+    "description": "54/2024",
+    "city": "רחלים",
+    "shchuna": "רחלים",
+    "price": null,
+    "date": "2024-02-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240053,
+    "description": "53/2024",
+    "city": "ביתר עילית",
+    "shchuna": "ביתר עלית",
+    "price": null,
+    "date": "2024-02-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240052,
+    "description": "52/2024",
+    "city": "אריאל",
+    "shchuna": null,
+    "price": null,
+    "date": "2024-02-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20240050,
+    "description": "50/2024",
+    "city": "גבעת זאב",
+    "shchuna": "הר שמואל",
+    "price": null,
+    "date": "2024-02-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240049,
+    "description": "49/2024",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "גבע בנימין",
+    "price": null,
+    "date": "2024-02-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20240008,
+    "description": "8/2024",
+    "city": "מיתר",
+    "shchuna": "מיתר",
+    "price": null,
+    "date": "2024-01-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230393,
+    "description": "393/2023",
+    "city": "מבשרת ציון",
+    "shchuna": null,
+    "price": null,
+    "date": "2023-12-31",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230388,
+    "description": "388/2023",
+    "city": "אבטין",
+    "shchuna": "איבטין",
+    "price": null,
+    "date": "2023-12-31",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230387,
+    "description": "387/2023",
+    "city": "מבשרת ציון",
+    "shchuna": "דרום (המחצבה)",
+    "price": null,
+    "date": "2023-12-31",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230386,
+    "description": "386/2023",
+    "city": "מבשרת ציון",
+    "shchuna": "הגולף",
+    "price": null,
+    "date": "2023-12-31",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230379,
+    "description": "379/2023",
+    "city": "סחנין",
+    "shchuna": "דרומית",
+    "price": null,
+    "date": "2023-12-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230376,
+    "description": "376/2023",
+    "city": "טובא זנגריה",
+    "shchuna": "מערבית",
+    "price": null,
+    "date": "2023-12-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230372,
+    "description": "372/2023",
+    "city": "עילוט",
+    "shchuna": "דרם מזרחית",
+    "price": null,
+    "date": "2023-12-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230371,
+    "description": "371/2023",
+    "city": "עראבה",
+    "shchuna": "מתחם 10",
+    "price": null,
+    "date": "2023-12-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230369,
+    "description": "369/2023",
+    "city": "בסמ\"ה",
+    "shchuna": "מועאוויה",
+    "price": null,
+    "date": "2023-12-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230368,
+    "description": "368/2023",
+    "city": "פרדיס",
+    "shchuna": "פרדיס",
+    "price": null,
+    "date": "2023-12-21",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230359,
+    "description": "359/2023",
+    "city": "גוש חלב (ג'ש)",
+    "shchuna": "גוש חלב",
+    "price": null,
+    "date": "2023-12-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230357,
+    "description": "357/2023",
+    "city": "מג'ד אל כרום (שאג'ור)",
+    "shchuna": "שכונה צפונית",
+    "price": null,
+    "date": "2023-12-17",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230354,
+    "description": "354/2023",
+    "city": "ביר אל מכסור",
+    "shchuna": null,
+    "price": null,
+    "date": "2023-12-25",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230343,
+    "description": "343/2023",
+    "city": "בסמ\"ה",
+    "shchuna": "בסמ\"ה ברטעה",
+    "price": null,
+    "date": "2023-12-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230342,
+    "description": "342/2023",
+    "city": "אילת",
+    "shchuna": "מתחם המשטרה לשעבר",
+    "price": null,
+    "date": "2023-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230341,
+    "description": "341/2023",
+    "city": "חדרה",
+    "shchuna": "חדרה",
+    "price": null,
+    "date": "2023-12-17",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230333,
+    "description": "333/2023",
+    "city": "שבלי-אום ג'נם",
+    "shchuna": "אום גאנם",
+    "price": null,
+    "date": "2023-12-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230330,
+    "description": "330/2023",
+    "city": "עראבה",
+    "shchuna": "מתחם 10",
+    "price": null,
+    "date": "2023-12-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230329,
+    "description": "329/2023",
+    "city": "דיר אל-אסד",
+    "shchuna": "שכונה מערבית",
+    "price": null,
+    "date": "2023-12-21",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230328,
+    "description": "328/2023",
+    "city": "עראבה",
+    "shchuna": "בית א-זאעתר",
+    "price": null,
+    "date": "2023-12-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230323,
+    "description": "323/2023",
+    "city": "ראס עלי",
+    "shchuna": "ראס עלי",
+    "price": null,
+    "date": "2023-12-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230291,
+    "description": "291/2023",
+    "city": "מצפה רמון",
+    "shchuna": "נוגה",
+    "price": null,
+    "date": "2023-11-13",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230245,
+    "description": "245/2023",
+    "city": "לוד",
+    "shchuna": "רובע הבינלאומי",
+    "price": null,
+    "date": "2023-10-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230223,
+    "description": "223/2023",
+    "city": "אילות",
+    "shchuna": "תמנע",
+    "price": null,
+    "date": "2023-09-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230217,
+    "description": "217/2023",
+    "city": "ירושלים",
+    "shchuna": "גוננים",
+    "price": null,
+    "date": "2023-09-13",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230213,
+    "description": "213/2023",
+    "city": "כפר סבא",
+    "shchuna": "קרית הצעירים",
+    "price": null,
+    "date": "2023-09-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230204,
+    "description": "204/2023",
+    "city": "רהט",
+    "shchuna": "רהט",
+    "price": null,
+    "date": "2023-07-23",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230202,
+    "description": "202/2023",
+    "city": "רהט",
+    "shchuna": "מתחם 6",
+    "price": null,
+    "date": "2023-07-20",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230201,
+    "description": "201/2023",
+    "city": "רהט",
+    "shchuna": "מתחם 13",
+    "price": null,
+    "date": "2023-07-20",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230200,
+    "description": "200/2023",
+    "city": "ערד",
+    "shchuna": null,
+    "price": null,
+    "date": "2023-07-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230177,
+    "description": "177/2023",
+    "city": "ירוחם",
+    "shchuna": null,
+    "price": null,
+    "date": "2023-06-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230168,
+    "description": "168/2023",
+    "city": "ירוחם",
+    "shchuna": "פארק אגם ירוחם",
+    "price": null,
+    "date": "2023-06-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230153,
+    "description": "153/2023",
+    "city": "טורעאן",
+    "shchuna": "הרכס",
+    "price": null,
+    "date": "2023-12-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230149,
+    "description": "149/2023",
+    "city": "הרצליה",
+    "shchuna": "קריית שחקים",
+    "price": null,
+    "date": "2023-06-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230143,
+    "description": "143/2023",
+    "city": "מרכז שפירא",
+    "shchuna": null,
+    "price": null,
+    "date": "2023-05-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230092,
+    "description": "92/2023",
+    "city": "ביתר עילית",
+    "shchuna": "מורדות א'2",
+    "price": null,
+    "date": "2023-03-22",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230090,
+    "description": "90/2023",
+    "city": "אפרת",
+    "shchuna": "התמר",
+    "price": null,
+    "date": "2023-03-22",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230032,
+    "description": "32/2023",
+    "city": "מ.א. גולן",
+    "shchuna": "מ.א. גולן",
+    "price": null,
+    "date": "2023-02-09",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20230024,
+    "description": "24/2023",
+    "city": "ירוחם",
+    "shchuna": "האגם",
+    "price": null,
+    "date": "2023-02-16",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230019,
+    "description": "19/2023",
+    "city": "ערד",
+    "shchuna": "רננים",
+    "price": null,
+    "date": "2023-02-02",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230015,
+    "description": "15/2023",
+    "city": "כפר קרע",
+    "shchuna": "סטאלין",
+    "price": null,
+    "date": "2023-01-25",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230006,
+    "description": "6/2023",
+    "city": "יבנה",
+    "shchuna": "יבנה",
+    "price": null,
+    "date": "2023-01-05",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20230003,
+    "description": "3/2023",
+    "city": "ירושלים",
+    "shchuna": "רחביה",
+    "price": null,
+    "date": "2023-01-05",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220468,
+    "description": "468/2022",
+    "city": "טירה",
+    "shchuna": "טירה",
+    "price": null,
+    "date": "2022-12-28",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220435,
+    "description": "435/2022",
+    "city": "ירושלים",
+    "shchuna": "מתחם התחנה",
+    "price": null,
+    "date": "2022-12-11",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220415,
+    "description": "415/2022",
+    "city": "פורייה-כפר עבודה",
+    "shchuna": null,
+    "price": null,
+    "date": "2022-11-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220414,
+    "description": "414/2022",
+    "city": "פורייה-כפר עבודה",
+    "shchuna": "כפר עבודה",
+    "price": null,
+    "date": "2022-11-28",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220390,
+    "description": "390/2022",
+    "city": "קרית אתא",
+    "shchuna": "שכונה צפונית",
+    "price": null,
+    "date": "2022-11-10",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220371,
+    "description": "371/2022",
+    "city": "מ.א. הערבה התיכונה",
+    "shchuna": "פארק ספיר",
+    "price": null,
+    "date": "2022-10-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220336,
+    "description": "336/2022",
+    "city": "תל שבע",
+    "shchuna": "מתחם 1",
+    "price": null,
+    "date": "2022-09-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220333,
+    "description": "333/2022",
+    "city": "ראשון לציון",
+    "shchuna": null,
+    "price": null,
+    "date": "2022-09-08",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220296,
+    "description": "296/2022",
+    "city": "פרדיס",
+    "shchuna": "פרדיס",
+    "price": null,
+    "date": "2022-08-24",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220226,
+    "description": "226/2022",
+    "city": "בסמת טבעון",
+    "shchuna": "רח' אבו סיף",
+    "price": null,
+    "date": "2022-07-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220221,
+    "description": "221/2022",
+    "city": "ורדון",
+    "shchuna": "מועצה איזורית יואב",
+    "price": null,
+    "date": "2022-07-14",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220218,
+    "description": "218/2022",
+    "city": "ירושלים",
+    "shchuna": "מתחם התחנה",
+    "price": null,
+    "date": "2022-07-14",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220215,
+    "description": "215/2022",
+    "city": "ירושלים",
+    "shchuna": "ארנונה",
+    "price": null,
+    "date": "2022-07-12",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20220173,
+    "description": "173/2022",
+    "city": "מעלה אדומים",
+    "shchuna": "מעלה אדומים",
+    "price": null,
+    "date": "2022-05-26",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220160,
+    "description": "160/2022",
+    "city": "אור עקיבא",
+    "shchuna": "אור ים",
+    "price": null,
+    "date": "2022-05-16",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220055,
+    "description": "55/2022",
+    "city": "שבי דרום",
+    "shchuna": "שבי דרום",
+    "price": null,
+    "date": "2022-02-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20220052,
+    "description": "52/2022",
+    "city": "ראשון לציון",
+    "shchuna": "נחלת יהודה מערב",
+    "price": null,
+    "date": "2022-02-27",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210446,
+    "description": "446/2021",
+    "city": "אילת",
+    "shchuna": "לגונה",
+    "price": null,
+    "date": "2021-12-08",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20210409,
+    "description": "409/2021",
+    "city": "חדרה",
+    "shchuna": "בית אליעזר",
+    "price": null,
+    "date": "2021-11-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210408,
+    "description": "408/2021",
+    "city": "חדרה",
+    "shchuna": "יוספטל",
+    "price": null,
+    "date": "2021-11-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210407,
+    "description": "407/2021",
+    "city": "פרדיס",
+    "shchuna": "ט'הראת",
+    "price": null,
+    "date": "2021-11-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210405,
+    "description": "405/2021",
+    "city": "אום אל פחם",
+    "shchuna": "אלקודס",
+    "price": null,
+    "date": "2021-11-11",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210395,
+    "description": "395/2021",
+    "city": "ירושלים",
+    "shchuna": "גבעת משואה צפון",
+    "price": null,
+    "date": "2021-11-10",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20210389,
+    "description": "389/2021",
+    "city": "רמלה",
+    "shchuna": "איצטדיון",
+    "price": null,
+    "date": "2021-10-31",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20210361,
+    "description": "361/2021",
+    "city": "קרני שומרון",
+    "shchuna": null,
+    "price": null,
+    "date": "2021-10-24",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210360,
+    "description": "360/2021",
+    "city": "בית אל",
+    "shchuna": "חטמ\"ר",
+    "price": null,
+    "date": "2021-10-24",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210323,
+    "description": "323/2021",
+    "city": "אשקלון",
+    "shchuna": "אגמים",
+    "price": null,
+    "date": "2021-10-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20210226,
+    "description": "226/2021",
+    "city": "מ.א. אשכול",
+    "shchuna": "סובב מאגר תלמי יוסף",
+    "price": null,
+    "date": "2021-07-19",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20210079,
+    "description": "79/2021",
+    "city": "פרדס חנה כרכור",
+    "shchuna": null,
+    "price": null,
+    "date": "2021-03-10",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210073,
+    "description": "73/2021",
+    "city": "הוד השרון",
+    "shchuna": "מתחם כנרת",
+    "price": null,
+    "date": "2021-03-10",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20210023,
+    "description": "23/2021",
+    "city": "אדם - גבע בנימין",
+    "shchuna": "שלב א'",
+    "price": null,
+    "date": "2021-01-18",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20200021,
+    "description": "21/2020",
+    "city": "אפרת",
+    "shchuna": "הדגן",
+    "price": null,
+    "date": "2020-01-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20200010,
+    "description": "10/2020",
+    "city": "אלפי מנשה",
+    "shchuna": "יובלים",
+    "price": null,
+    "date": "2020-01-01",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20190444,
+    "description": "444/2019",
+    "city": "קרית גת",
+    "shchuna": "שכ' מערבית",
+    "price": null,
+    "date": "2019-12-23",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20190391,
+    "description": "391/2019",
+    "city": "ללא תחום שיפוט חיפה",
+    "shchuna": "ים התיכון",
+    "price": null,
+    "date": "2019-12-22",
+    "status": "מפורסם",
+    "status_code": 1
+  },
+  {
+    "id": 20190390,
+    "description": "390/2019",
+    "city": "עומר",
+    "shchuna": "פארק תעשיות",
+    "price": null,
+    "date": "2019-12-09",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20190214,
+    "description": "214/2019",
+    "city": "אשקלון",
+    "shchuna": "פארק הייטק",
+    "price": null,
+    "date": "2019-07-21",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20190091,
+    "description": "91/2019",
+    "city": "אורנית",
+    "shchuna": null,
+    "price": null,
+    "date": "2019-04-04",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20180509,
+    "description": "509/2018",
+    "city": "מעלה אדומים",
+    "shchuna": "חורשת פוגל",
+    "price": null,
+    "date": "2018-12-26",
+    "status": "פתוח להגשת הצעות",
+    "status_code": 2
+  },
+  {
+    "id": 20170115,
+    "description": "115/2017",
+    "city": "אלפי מנשה",
+    "shchuna": "גבעת טל",
+    "price": null,
+    "date": "2017-05-11",
+    "status": "מפורסם",
+    "status_code": 1
+  }
+]

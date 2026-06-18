@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מערכת ניטור מכרזי רשות מקרקעי ישראל</title>
+    <meta name="description" content="לוח בקרה אינטראקטיבי לניטור, חיפוש וניתוח של מכרזי רשות מקרקעי ישראל (רמ״י).">
+    
+    <!-- גוגל פונטס - Rubik (פונט מודרני לעברית) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons (אייקונים נקיים) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- jQuery ו-DataTables CSS/JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <style>
+        /* הגדרת משתני עיצוב - תומך במצב כהה כברירת מחדל */
+        :root {
+            --bg-gradient-start: #0f172a;
+            --bg-gradient-end: #020617;
+            --card-bg: rgba(30, 41, 59, 0.45);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --primary-accent: #06b6d4; /* Cyan */
+            --secondary-accent: #8b5cf6; /* Violet */
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #3b82f6;
+            --table-header-bg: #1e293b;
+            --table-row-hover: rgba(255, 255, 255, 0.03);
+            --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        /* הגדרות מצב בהיר */
+        body.light-mode {
+            --bg-gradient-start: #f1f5f9;
+            --bg-gradient-end: #cbd5e1;
+            --card-bg: rgba(255, 255, 255, 0.7);
+            --card-border: rgba(0, 0, 0, 0.08);
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --primary-accent: #0891b2;
+            --secondary-accent: #7c3aed;
+            --table-header-bg: #e2e8f0;
+            --table-row-hover: rgba(0, 0, 0, 0.02);
+            --shadow: 0 8px 32px 0 rgba(148, 163, 184, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+            min-height: 100vh;
+            color: var(--text-primary);
+            padding: 2rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* רקע זוהר עיצובי */
+        .glow-sphere {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .glow-1 { top: -100px; left: -100px; }
+        .glow-2 { bottom: -100px; right: -100px; }
+
+        /* קונטיינר ראשי */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* כותרת עליונה */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .header-title h1 {
+            font-size: 2.25rem;
+            font-weight: 900;
+            background: linear-gradient(to left, var(--primary-accent), var(--secondary-accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-title p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* כפתור החלפת מצב צבע */
+        .theme-toggle {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            color: var(--text-primary);
+            padding: 0.75rem 1.25rem;
+            border-radius: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(8px);
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--primary-accent);
+            transform: translateY(-2px);
+        }
+
+        /* כרטיסיות נתונים סטטיסטיים */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(12px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--primary-accent), var(--secondary-accent));
+            border-radius: 0 4px 4px 0;
+        }
+
+        .stat-info h3 {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-info p {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .stat-icon {
+            background: rgba(6, 182, 212, 0.1);
+            color: var(--primary-accent);
+            padding: 0.75rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* פאנל סינונים */
+        .filters-panel {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(12px);
+        }
+
+        .filters-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .filter-control {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-control label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .filter-control select, .filter-control input {
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid var(--card-border);
+            color: var(--text-primary);
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            outline: none;
+            width: 100%;
+        }
+
+        body.light-mode .filter-control select, body.light-mode .filter-control input {
+            background: rgba(255, 255, 255, 0.8);
+            color: #0f172a;
+        }
+
+        .filter-control select:focus, .filter-control input:focus {
+            border-color: var(--primary-accent);
+        }
+
+        /* טבלה */
+        .table-container {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(12px);
+            overflow-x: auto;
+        }
+
+        /* התאמת DataTables לעיצוב יוקרתי */
+        table.dataTable {
+            border-collapse: collapse !important;
+            width: 100% !important;
+            color: var(--text-primary) !important;
+            margin-top: 1rem !important;
+        }
+
+        table.dataTable thead th {
+            background-color: var(--table-header-bg) !important;
+            color: var(--text-primary) !important;
+            font-weight: 600 !important;
+            padding: 1rem !important;
+            border-bottom: 2px solid var(--card-border) !important;
+            text-align: right !important;
+        }
+
+        table.dataTable tbody tr {
+            background-color: transparent !important;
+            border-bottom: 1px solid var(--card-border) !important;
+        }
+
+        table.dataTable tbody tr:hover {
+            background-color: var(--table-row-hover) !important;
+        }
+
+        table.dataTable tbody td {
+            padding: 1rem !important;
+            vertical-align: middle !important;
+        }
+
+        /* כפתורי ניווט וחיפוש של DataTables */
+        .dataTables_wrapper .dataTables_filter input {
+            background: rgba(15, 23, 42, 0.4) !important;
+            border: 1px solid var(--card-border) !important;
+            color: var(--text-primary) !important;
+            padding: 0.5rem 1rem !important;
+            border-radius: 8px !important;
+            margin-right: 0.5rem !important;
+            outline: none !important;
+        }
+
+        /* טאבים */
+        .tabs-container {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tab-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            color: var(--text-secondary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            backdrop-filter: blur(12px);
+            box-shadow: var(--shadow);
+            transition: all 0.25s ease;
+        }
+
+        .tab-btn:hover {
+            border-color: var(--primary-accent);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(139, 92, 246, 0.15));
+            border-color: var(--primary-accent);
+            color: var(--text-primary);
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
+        }
+
+        .tab-btn i {
+            transition: transform 0.25s ease;
+        }
+
+        .tab-btn.active i {
+            transform: scale(1.1);
+        }
+
+        .tab-indicator {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--card-border);
+            margin-bottom: 0.5rem;
+        }
+
+        .tab-indicator span:first-child {
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+
+        .tab-count {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            background: rgba(148, 163, 184, 0.1);
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+        }
+
+        body.light-mode .dataTables_wrapper .dataTables_filter input {
+            background: rgba(255, 255, 255, 0.8) !important;
+            color: #0f172a !important;
+        }
+
+        .dataTables_wrapper .dataTables_filter input:focus {
+            border-color: var(--primary-accent) !important;
+        }
+
+        .dataTables_wrapper .dataTables_length select {
+            background: rgba(15, 23, 42, 0.4) !important;
+            border: 1px solid var(--card-border) !important;
+            color: var(--text-primary) !important;
+            padding: 0.4rem !important;
+            border-radius: 6px !important;
+            outline: none !important;
+        }
+
+        body.light-mode .dataTables_wrapper .dataTables_length select {
+            background: rgba(255, 255, 255, 0.8) !important;
+            color: #0f172a !important;
+        }
+
+        .dataTables_wrapper .dataTables_info,
+        .dataTables_wrapper .dataTables_paginate {
+            color: var(--text-secondary) !important;
+            margin-top: 1.5rem !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            color: var(--text-primary) !important;
+            border: 1px solid var(--card-border) !important;
+            background: var(--card-bg) !important;
+            border-radius: 6px !important;
+            padding: 0.4rem 0.8rem !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background: linear-gradient(to left, var(--primary-accent), var(--secondary-accent)) !important;
+            color: white !important;
+            border-color: transparent !important;
+        }
+
+        /* עיצוב תגיות סטטוס */
+        .badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .badge-active {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .badge-published {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--info);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .badge-closed {
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--text-secondary);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+        }
+
+        .badge-canceled {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--danger);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .badge-committee {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        /* עיצוב קישורים */
+        .tender-link {
+            color: var(--primary-accent);
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .tender-link:hover {
+            text-decoration: underline;
+            color: var(--secondary-accent);
+        }
+
+        /* התאמה למובייל */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            .header-title h1 {
+                font-size: 1.75rem;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .table-container {
+                padding: 0.5rem;
+            }
+            table.dataTable tbody td, table.dataTable thead th {
+                padding: 0.5rem !important;
+                font-size: 0.85rem !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-sphere glow-1"></div>
+    <div class="glow-sphere glow-2"></div>
+
+    <div class="container">
+        <!-- כותרת ראשית -->
+        <header>
+            <div class="header-title">
+                <h1>מערכת ניטור מכרזי רמ"י</h1>
+                <p><i data-lucide="refresh-cw" style="width: 16px; height: 16px;"></i> עדכון נתונים אוטומטי (רשות מקרקעי ישראל)</p>
+            </div>
+            <button class="theme-toggle" id="themeToggleBtn">
+                <i data-lucide="sun" id="themeIcon"></i>
+                <span id="themeText">מצב בהיר</span>
+            </button>
+        </header>
+
+        <!-- ריבוע סטטיסטיקות -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>סה"כ מכרזים במאגר</h3>
+                    <p id="statTotal">-</p>
+                </div>
+                <div class="stat-icon">
+                    <i data-lucide="database"></i>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>מכרזים פעילים כעת</h3>
+                    <p id="statActive">-</p>
+                </div>
+                <div class="stat-icon" style="background: rgba(16, 185, 129, 0.1); color: var(--success);">
+                    <i data-lucide="activity"></i>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>יישובים מנוטרים</h3>
+                    <p id="statCities">-</p>
+                </div>
+                <div class="stat-icon" style="background: rgba(139, 92, 246, 0.1); color: var(--secondary-accent);">
+                    <i data-lucide="map-pin"></i>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>מחיר מינימום ממוצע</h3>
+                    <p id="statAvgPrice">-</p>
+                </div>
+                <div class="stat-icon" style="background: rgba(245, 158, 11, 0.1); color: var(--warning);">
+                    <i data-lucide="coins"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- פאנל סינונים מתקדם -->
+        <div class="filters-panel">
+            <div class="filters-title">
+                <i data-lucide="sliders-horizontal" style="color: var(--primary-accent);"></i>
+                <span>סינון וחיפוש מתקדם</span>
+            </div>
+            <div class="filters-grid">
+                <div class="filter-control">
+                    <label for="filterCity">יישוב / עיר</label>
+                    <select id="filterCity">
+                        <option value="">הכל</option>
+                    </select>
+                </div>
+                <div class="filter-control">
+                    <label for="filterStatus">סטטוס מכרז</label>
+                    <select id="filterStatus">
+                        <option value="">הכל</option>
+                    </select>
+                </div>
+                <div class="filter-control">
+                    <label for="filterMinPrice">מחיר מינימום מ- (₪)</label>
+                    <input type="number" id="filterMinPrice" placeholder="ללא הגבלה">
+                </div>
+                <div class="filter-control">
+                    <label for="filterMaxPrice">מחיר מקסימום עד (₪)</label>
+                    <input type="number" id="filterMaxPrice" placeholder="ללא הגבלה">
+                </div>
+            </div>
+        </div>
+
+        <!-- טאבים -->
+        <div class="tabs-container">
+            <button class="tab-btn active" data-tab="active">
+                <i data-lucide="activity" style="width: 18px; height: 18px;"></i>
+                מכרזים פעילים
+            </button>
+            <button class="tab-btn" data-tab="historical">
+                <i data-lucide="archive" style="width: 18px; height: 18px;"></i>
+                תוצאות מכרזים
+            </button>
+        </div>
+
+        <!-- טבלת נתונים ראשית -->
+        <div class="table-container">
+            <div class="tab-indicator">
+                <span id="tabLabel">מכרזים פעילים</span>
+                <span id="tabCount" class="tab-count">0 מכרזים</span>
+            </div>
+            <table id="tendersTable" class="display responsive nowrap" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>מזהה מכרז</th>
+                        <th>קוד מכרז</th>
+                        <th>יישוב</th>
+                        <th>שכונה / רחוב</th>
+                        <th>מחיר סף (₪)</th>
+                        <th>תאריך פרסום</th>
+                        <th>סטטוס</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- נתונים יוזנו דינמית -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            let table = null;
+            let allData = [];
+            let currentTab = 'active';
+
+            lucide.createIcons();
+
+            const themeBtn = document.getElementById('themeToggleBtn');
+            themeBtn.addEventListener('click', () => {
+                document.body.classList.toggle('light-mode');
+                const isLight = document.body.classList.contains('light-mode');
+                document.getElementById('themeText').innerText = isLight ? 'מצב כהה' : 'מצב בהיר';
+                document.getElementById('themeIcon').setAttribute('data-lucide', isLight ? 'moon' : 'sun');
+                lucide.createIcons();
+            });
+
+            function formatCurrency(val) {
+                if (val === null || val === undefined) return '-';
+                return new Intl.NumberFormat('he-IL', { style: 'currency', currency: 'ILS', maximumFractionDigits: 0 }).format(val);
+            }
+
+            function getStatusBadge(statusText, statusCode) {
+                let badgeClass = 'badge-closed';
+                if (statusCode === 1) badgeClass = 'badge-published';
+                if (statusCode === 2) badgeClass = 'badge-active';
+                if (statusCode === 7) badgeClass = 'badge-canceled';
+                if (statusCode === 5) badgeClass = 'badge-committee';
+                return `<span class="badge ${badgeClass}">${statusText}</span>`;
+            }
+
+            function getFileName(tab) {
+                return tab === 'active' ? 'tenders_active.json' : 'tenders_results.json';
+            }
+
+            function getTabLabel(tab) {
+                return tab === 'active' ? 'מכרזים פעילים' : 'תוצאות מכרזים';
+            }
+
+            function loadData(tab) {
+                const fileName = getFileName(tab);
+
+                if (table) {
+                    table.destroy();
+                    table = null;
+                }
+                $('#tendersTable tbody').empty();
+                $('#filterCity').empty().append('<option value="">הכל</option>');
+                $('#filterStatus').empty().append('<option value="">הכל</option>');
+                $('#filterMinPrice').val('');
+                $('#filterMaxPrice').val('');
+                $.fn.dataTable.ext.search = $.fn.dataTable.ext.search.filter(f => false);
+
+                fetch(fileName)
+                    .then(response => {
+                        if (!response.ok) throw new Error('שגיאה בטעינת ' + fileName);
+                        return response.json();
+                    })
+                    .then(data => {
+                        allData = data;
+                        document.getElementById('tabLabel').innerText = getTabLabel(tab);
+                        document.getElementById('tabCount').innerText = `${data.length} מכרזים`;
+                        updateStatistics(data);
+                        populateFilterOptions(data);
+                        populateTable(data);
+                    })
+                    .catch(error => {
+                        console.error('שגיאה:', error);
+                        document.getElementById('tabLabel').innerText = getTabLabel(tab);
+                        document.getElementById('tabCount').innerText = 'שגיאה בטעינה';
+                        document.getElementById('statTotal').innerText = '0';
+                        document.getElementById('statActive').innerText = '0';
+                        document.getElementById('statCities').innerText = '0';
+                        document.getElementById('statAvgPrice').innerText = '-';
+                        const tbody = $('#tendersTable tbody');
+                        tbody.empty();
+                        tbody.append(`<tr><td colspan="7" style="text-align:center; padding:2rem; color: var(--danger);">שגיאה בטעינת נתונים. יש להריץ את fetcher.py תחילה.</td></tr>`);
+                    });
+            }
+
+            function updateStatistics(data) {
+                const total = data.length;
+                const active = data.filter(t => t.status_code === 1 || t.status_code === 2).length;
+                const cities = new Set(data.map(t => t.city).filter(Boolean)).size;
+                const prices = data.map(t => t.price).filter(p => p !== null && p !== undefined && p > 0);
+                const avgPrice = prices.length > 0 ? prices.reduce((a, b) => a + b, 0) / prices.length : 0;
+
+                document.getElementById('statTotal').innerText = total.toLocaleString();
+                document.getElementById('statActive').innerText = active.toLocaleString();
+                document.getElementById('statCities').innerText = cities.toLocaleString();
+                document.getElementById('statAvgPrice').innerText = avgPrice > 0 ? formatCurrency(avgPrice) : '-';
+            }
+
+            function populateFilterOptions(data) {
+                const cities = [...new Set(data.map(t => t.city).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'he'));
+                const citySelect = document.getElementById('filterCity');
+                cities.forEach(c => {
+                    const opt = document.createElement('option');
+                    opt.value = c;
+                    opt.innerText = c;
+                    citySelect.appendChild(opt);
+                });
+
+                const statuses = [...new Set(data.map(t => t.status).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'he'));
+                const statusSelect = document.getElementById('filterStatus');
+                statuses.forEach(s => {
+                    const opt = document.createElement('option');
+                    opt.value = s;
+                    opt.innerText = s;
+                    statusSelect.appendChild(opt);
+                });
+            }
+
+            function populateTable(data) {
+                const tbody = $('#tendersTable tbody');
+                tbody.empty();
+
+                data.forEach(t => {
+                    const rowHtml = `
+                        <tr>
+                            <td>
+                                <a href="https://apps.land.gov.il/MichrazimSite/#/michraz/${t.id}" target="_blank" class="tender-link">
+                                    ${t.id}
+                                    <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+                                </a>
+                            </td>
+                            <td>${t.description || '-'}</td>
+                            <td><strong>${t.city || '-'}</strong></td>
+                            <td>${t.shchuna || '-'}</td>
+                            <td data-order="${t.price !== null ? t.price : -1}">${formatCurrency(t.price)}</td>
+                            <td>${t.date || '-'}</td>
+                            <td>${getStatusBadge(t.status, t.status_code)}</td>
+                        </tr>
+                    `;
+                    tbody.append(rowHtml);
+                });
+
+                lucide.createIcons();
+
+                $.fn.dataTable.ext.search.push(
+                    function(settings, data, dataIndex) {
+                        const rowObj = allData[dataIndex];
+                        if (!rowObj) return true;
+                        const filterCity = $('#filterCity').val();
+                        if (filterCity && rowObj.city !== filterCity) return false;
+                        const filterStatus = $('#filterStatus').val();
+                        if (filterStatus && rowObj.status !== filterStatus) return false;
+                        const minPriceVal = parseFloat($('#filterMinPrice').val());
+                        const maxPriceVal = parseFloat($('#filterMaxPrice').val());
+                        const price = rowObj.price;
+                        if (!isNaN(minPriceVal)) {
+                            if (price === null || price < minPriceVal) return false;
+                        }
+                        if (!isNaN(maxPriceVal)) {
+                            if (price === null || price > maxPriceVal) return false;
+                        }
+                        return true;
+                    }
+                );
+
+                table = $('#tendersTable').DataTable({
+                    language: {
+                        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/he.json'
+                    },
+                    order: [[0, 'desc']],
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    responsive: true,
+                    dom: '<"top"lf>rt<"bottom"ip><"clear">',
+                    drawCallback: function() {
+                        lucide.createIcons();
+                    }
+                });
+
+                $('#filterCity, #filterStatus, #filterMinPrice, #filterMaxPrice').on('change keyup', function() {
+                    table.draw();
+                });
+            }
+
+            $('.tab-btn').on('click', function() {
+                const tab = $(this).data('tab');
+                if (tab === currentTab) return;
+                currentTab = tab;
+                $('.tab-btn').removeClass('active');
+                $(this).addClass('active');
+                loadData(tab);
+            });
+
+            loadData('active');
+        });
+    </script>
+</body>
+</html>
